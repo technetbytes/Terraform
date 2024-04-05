@@ -2,8 +2,8 @@
 region      = "ap-southeast-1"
 project     = "edifice"
 environment = "dev"
-domain_name = "infrafy.codetronix.xyz"      #Format => <project>.<company-name>.<domain-extensions>
-profile     = "innovork" # 
+domain_name = "infrafy.codetronix.xyz" #Format => <project>.<company-name>.<domain-extensions>
+profile     = "innovork"               # 
 
 
 
