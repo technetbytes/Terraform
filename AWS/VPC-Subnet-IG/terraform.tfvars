@@ -19,3 +19,9 @@ public-subnet-3-cidr-block = "10.20.2.0/24"
 private-subnet-1-cidr-block = "10.20.3.0/24"
 private-subnet-2-cidr-block = "10.20.4.0/24"
 private-subnet-3-cidr-block = "10.20.5.0/24"
+
+# EC2 Bastion Host variables
+ec2-bastion-public-key-path = ""
+ec2-bastion-private-key-path=""
+ec2-bastion-ingress-ip-1 =""
+bastion-bootstrap-script-path=""

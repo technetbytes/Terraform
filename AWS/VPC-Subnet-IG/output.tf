@@ -1,7 +1,7 @@
 output "vpc_id" {
-  value = resource.aws_vpc.kodetronix-vpc.id
+  value = resource.aws_vpc.technet-vpc.id
 }
 
 output "vpc_cidr_block" {
-  value = resource.aws_vpc.kodetronix-vpc.cidr_block
+  value = resource.aws_vpc.technet-vpc.cidr_block
 }
