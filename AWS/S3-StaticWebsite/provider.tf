@@ -17,10 +17,9 @@ provider "aws" {
 # terraform init -reconfigure
 terraform {
   backend "s3" {
-    bucket         = "testinnovork"
+    bucket         = "testacm007"
     key            = "terraform.tfstate"
-    region         = "ap-southeast-1"
-    profile        = "innovork"
-    ##dynamodb_table = "infrafy-tfstate-lock-dev"
+    region         = "us-east-1"
+    profile        = "acm"
   }
 }
