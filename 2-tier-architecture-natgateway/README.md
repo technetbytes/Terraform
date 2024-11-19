@@ -10,6 +10,8 @@
 - **Route Table**
 - **Internet Gateway**
 - **EC2 Instance**
+- **Nat Gateway**
+- **Elastic IP Address**
 
 **Architecture**
 
@@ -82,3 +84,15 @@ Bastion or Jump server in public subnet
 ![EC2 instance in private subnet](private_instance.png)
 
 EC2 instance in private subnet
+
+**Nat Gateway Setup**
+
+![Nat Gateway Setup](nat_gateway.png)
+
+Setup Nat Gateway
+
+**Elastic IP Address**
+
+![EC2 instance in private subnet](eip.png)
+
+Elastic IP Address for Nat Gateway
